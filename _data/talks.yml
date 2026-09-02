@@ -1,5 +1,4 @@
-# Every talk, past and future, lives in this file. The site sorts them by date
-# and decides on its own what is upcoming and what belongs in the archive.
+# Every scheduled talk lives in this file. The site sorts them by date.
 #
 # Required: date, speaker, title
 # Optional: affiliation, url, time, room, abstract, links, note, cancelled
@@ -71,29 +70,3 @@
   cancelled: true
   note: "Cancelled; we hope to reschedule for the spring."
 
-# --- previous terms; these drop into the archive on their own ------------------
-
-- date: 2026-04-15
-  speaker: "Julia Robinson"
-  affiliation: "Berkeley"
-  title: 'Diophantine definability over rings of integers'
-  abstract: >
-    An overview of what is known about defining $\ZZ$ inside $\mathcal{O}_K$ by
-    a positive existential formula, and what such a definition would say about
-    Hilbert's tenth problem for $K$.
-  links:
-    notes: "https://example.edu/notes/robinson.pdf"
-
-- date: 2026-04-01
-  speaker: "Maryam Mirzakhani"
-  affiliation: "Stanford"
-  title: 'Counting simple closed geodesics'
-  abstract: >
-    For a hyperbolic surface $X$ of genus $g$, the number of simple closed
-    geodesics of length at most $L$ grows like $c_X L^{6g-6}$. I will explain
-    where the exponent comes from and what the constant remembers about $X$.
-
-- date: 2025-11-12
-  speaker: "Jean-Pierre Serre"
-  affiliation: "Collège de France"
-  title: 'Galois representations attached to modular forms'
