@@ -33,8 +33,10 @@
 - date: 2026-09-22
   speaker: "Michael Zeng"
   affiliation: "UC-Berkeley / University of Washington"
-  title: ''
+  url: "https://zengrf.github.io/"
+  title: '3264 and Algebraic Cobordism'
   abstract: >
+    Oriented cohomology theories provide a general framework to perform intersection-theory style calculations. Prototypical examples include Chow ring, $K$-theory, and algebraic cobordism, while Annala--Hoyois--Iwasa recently constructed the category $\mathsf{MS}_S$ for studying other non-$\mathbb A^1$-invariant theories. In this talk, we prove a blowup formula for oriented cohomology theories in $\mathsf{MS}_S$. We then give a ring presentation version of this formula and use it to compute oriented cohomology rings of blowups such as the moduli space of complete conics and $\overline M_{0,n}$. In particular, we demonstrate that one can recover the number $3264$ of conics simultaneously tangent to five given ones in $\mathbb P^2$ in algebraic cobordism. This is based on joint work with Arkamouli Debnath.
 
 
 - date: 2026-09-29
