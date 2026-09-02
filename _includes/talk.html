@@ -25,7 +25,7 @@
       {%- else -%}
         {{ include.talk.speaker }}
       {%- endif -%}
-      {%- if include.talk.affiliation %}<span class="talk__affiliation">{{ include.talk.affiliation }}</span>{% endif -%}
+      {%- if include.talk.affiliation and include.talk.affiliation != '' %}<span class="talk__affiliation">{{ include.talk.affiliation }}</span>{% endif -%}
     </p>
 
     <h3 class="talk__title">{{ include.talk.title }}</h3>

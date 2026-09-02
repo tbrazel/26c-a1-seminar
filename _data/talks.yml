@@ -12,61 +12,111 @@
 # For abstracts, ">" folds each paragraph onto one line and keeps blank lines
 # as paragraph breaks. Keep the indentation as shown.
 
-- date: 2026-09-16
-  speaker: "Emmy Noether"
-  affiliation: "Göttingen"
-  url: "https://example.edu/~noether"
-  title: 'Invariant theory and the arithmetic of $\mathbb{Z}/p$-equivariant families'
+- date: 2026-09-08
+  speaker: "Thomas Brazelton"
+  affiliation: "SLMath MHT / Vanderbilt"
+  url: "https://tbrazel.github.io/"
+  title: 'An introduction to enumerative geometry and A1-enumerative geometry'
   abstract: >
-    Given a family of varieties carrying an action of a finite group $G$, one
-    can ask how the invariants of the family vary and which of them are
-    determined by the representation theory of $G$ alone. I will describe a
-    filtration on the invariant ring whose graded pieces are governed by the
-    fixed loci $X^H$ for $H \le G$, and explain what this gives for families of
-    curves of genus $g \ge 2$.
+    We'll provide a leisurely introduction to the basic ideas of enumerative geometry, following its history and development from Ancient Greece to the present day. We will explore Poncelet and Schubert's principle of "conservation of number," and see how it breaks over non-algebraically closed fields. The second half of the talk will explore how methods from motivic homotopy theory can be leveraged to repair conservation of number and provide quadratically enriched answers to classical enumerative questions. This talk will introduce some of the key players in enumerative geometry, including the Grothendieck-Witt ring of a field and quadratic Euler classes.
+  # links:
+  #   notes: "https://example.edu/notes/noether.pdf"
 
-    The second half of the talk concerns an arithmetic application: for
-    $G = \mathbb{Z}/p$ the filtration is compatible with reduction mod $\ell$
-    for all $\ell \ne p$, which yields a congruence between two counts that were
-    previously known to agree only numerically.
-  links:
-    notes: "https://example.edu/notes/noether.pdf"
-
-- date: 2026-09-23
-  speaker: "Alexander Grothendieck"
-  affiliation: "IHÉS"
-  title: 'Descent for the étale fundamental group'
-  room: "Room 622 (note the room change)"
+- date: 2026-09-15
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
   abstract: >
-    A survey of descent techniques for $\pi_1^{\text{ét}}$, with an emphasis on
-    what survives when the base is not locally noetherian. No familiarity with
-    the previous talk in this series will be assumed.
+    Let us know if you'd like to speak!
 
-- date: 2026-09-30
-  speaker: "Speaker to be announced"
-  title: 'To be announced'
-  note: "Slot reserved for a visitor; details in a week or two."
 
-- date: 2026-09-09
-  speaker: "Sofya Kovalevskaya"
-  affiliation: "Stockholm University"
-  url: "https://example.edu/~kovalevskaya"
-  title: 'Osculating flags and the real Wronski map'
+- date: 2026-09-22
+  speaker: "Michael Zeng"
+  affiliation: "UC-Berkeley / University of Washington"
+  title: 'tbd'
   abstract: >
-    The Wronski map $\mathrm{Wr} \colon \mathrm{Gr}(k, n) \to \mathbb{P}^{k(n-k)}$
-    is finite and flat of degree equal to the number of standard Young tableaux
-    of rectangular shape $k \times (n-k)$. I will discuss what its real fibres
-    look like, and why the answer is controlled by a combinatorial object that
-    behaves like a domino tiling.
-  links:
-    slides: "https://example.edu/slides/kovalevskaya.pdf"
-    video: "https://example.edu/video/kovalevskaya"
-    arxiv: "https://arxiv.org/abs/0000.00000"
+    tbd
 
-- date: 2026-09-02
-  speaker: "David Hilbert"
-  affiliation: "Königsberg"
-  title: 'Syzygies in the graded case'
+
+- date: 2026-09-29
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+
+- date: 2026-10-06
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+- date: 2026-10-13
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+
+- date: 2026-10-20
+  speaker: ""
+  affiliation: ""
+  title: ''
   cancelled: true
-  note: "Cancelled; we hope to reschedule for the spring."
+  abstract: >
+    No talk, workshop
 
+
+- date: 2026-10-27
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+
+- date: 2026-11-03
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+- date: 2026-11-10
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+- date: 2026-11-17
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+- date: 2026-11-24
+  speaker: ""
+  affiliation: ""
+  title: ''
+  cancelled: true
+  abstract: >
+    No talk, Thanksgiving!
+
+- date: 2026-12-01
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!
+
+- date: 2026-12-08
+  speaker: "tbd"
+  affiliation: ""
+  title: 'tbd'
+  abstract: >
+    Let us know if you'd like to speak!

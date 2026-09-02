@@ -1,8 +1,8 @@
 # ---------------------------------------------------------------------------
 # Edit these four lines and the site is yours.
 # ---------------------------------------------------------------------------
-title: "Algebra and Geometry Seminar"
-description: "A weekly seminar on algebraic geometry, arithmetic geometry, and neighbouring subjects."
+title: "A1-Enumerative Geometry Seminar"
+description: "A weekly seminar on quadratically enriched enumerative geometry."
 url: "https://tbrazel.github.io"   # no trailing slash
 baseurl: "/26c-a1-seminar"                 # the repository name, with a leading slash
 
@@ -15,12 +15,12 @@ seminar:
   calendar: ""                      # optional .ics or Google Calendar link
 
 organizers:
-  - name: "A. Organizer"
-    email: "organizer@example.edu"
-    url: "https://example.edu/~organizer"
-  - name: "B. Organizer"
-    email: "b.organizer@example.edu"
-    url: ""
+  - name: "Thomas Brazelton"
+    email: "tbraz@alumni.upenn.edu"
+    url: "https://tbrazel.github.io/"
+  - name: "Kirsten Wickelgren"
+    email: "kisten.wickelgren@duke.edu"
+    url: "https://sites.math.duke.edu/~kgw/"
 
 # ---------------------------------------------------------------------------
 # Build settings — you can leave everything below alone.

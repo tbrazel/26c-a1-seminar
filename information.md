@@ -5,20 +5,11 @@ permalink: /information/
 ---
 
 The seminar meets {{ site.seminar.meets | downcase }} in {{ site.seminar.room }}.
-Talks are one hour, with questions during rather than after — this is a working
-seminar and interruptions are the point.
+Talks are 50 minute, with questions after (and also hopefully during!)
 
 ## Speaking
 
-We are always looking for speakers, including graduate students giving their
-first talk. Write to one of the organizers with a title and a short abstract,
-and say roughly when you are free. Visitors passing through are welcome to ask
-for a slot on short notice; we usually keep one or two open each term.
-
-Abstracts may contain TeX. Inline math such as $H^1(X, \mathcal{O}_X)$ works,
-and so does a displayed equation, as long as it sits in a paragraph of its own:
-
-$$\chi(X, \mathcal{F}) = \sum_i (-1)^i \dim H^i(X, \mathcal{F}).$$
+Please email tbraz@alumni.upenn.edu if you'd like to speak!
 
 ## Keeping up
 
