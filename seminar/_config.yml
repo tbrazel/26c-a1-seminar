@@ -3,15 +3,15 @@
 # ---------------------------------------------------------------------------
 title: "Algebra and Geometry Seminar"
 description: "A weekly seminar on algebraic geometry, arithmetic geometry, and neighbouring subjects."
-url: "https://USERNAME.github.io"   # no trailing slash
-baseurl: "/seminar"                 # the repository name, with a leading slash
+url: "https://tbrazel.github.io"   # no trailing slash
+baseurl: "/26c-a1-seminar"                 # the repository name, with a leading slash
 
 # Shown in the masthead and on the information page.
 seminar:
-  meets: "Wednesdays, 4:00–5:00 pm"
-  room: "Room 507, Mathematics Building"
+  meets: "Tuesdays, 11:00 am–12:00 pm"
+  room: "Baker Boardroom, SLMath"
   term: "Fall 2026"
-  mailing_list: "https://lists.example.edu/seminar"
+  # mailing_list: "https://lists.example.edu/seminar"
   calendar: ""                      # optional .ics or Google Calendar link
 
 organizers:
