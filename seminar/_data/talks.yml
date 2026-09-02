@@ -1,0 +1,99 @@
+# Every talk, past and future, lives in this file. The site sorts them by date
+# and decides on its own what is upcoming and what belongs in the archive.
+#
+# Required: date, speaker, title
+# Optional: affiliation, url, time, room, abstract, links, note, cancelled
+#
+# A note on quoting. Use SINGLE quotes around anything containing TeX:
+#   title: 'Bitangents to $\mathcal{C} \subset \mathbb{P}^2$'
+# YAML does not process backslash escapes inside single quotes, so \mathbb
+# arrives at MathJax intact. Inside double quotes you would have to write
+# \\mathbb, which is easy to forget.
+#
+# For abstracts, ">" folds each paragraph onto one line and keeps blank lines
+# as paragraph breaks. Keep the indentation as shown.
+
+- date: 2026-09-16
+  speaker: "Emmy Noether"
+  affiliation: "Göttingen"
+  url: "https://example.edu/~noether"
+  title: 'Invariant theory and the arithmetic of $\mathbb{Z}/p$-equivariant families'
+  abstract: >
+    Given a family of varieties carrying an action of a finite group $G$, one
+    can ask how the invariants of the family vary and which of them are
+    determined by the representation theory of $G$ alone. I will describe a
+    filtration on the invariant ring whose graded pieces are governed by the
+    fixed loci $X^H$ for $H \le G$, and explain what this gives for families of
+    curves of genus $g \ge 2$.
+
+    The second half of the talk concerns an arithmetic application: for
+    $G = \mathbb{Z}/p$ the filtration is compatible with reduction mod $\ell$
+    for all $\ell \ne p$, which yields a congruence between two counts that were
+    previously known to agree only numerically.
+  links:
+    notes: "https://example.edu/notes/noether.pdf"
+
+- date: 2026-09-23
+  speaker: "Alexander Grothendieck"
+  affiliation: "IHÉS"
+  title: 'Descent for the étale fundamental group'
+  room: "Room 622 (note the room change)"
+  abstract: >
+    A survey of descent techniques for $\pi_1^{\text{ét}}$, with an emphasis on
+    what survives when the base is not locally noetherian. No familiarity with
+    the previous talk in this series will be assumed.
+
+- date: 2026-09-30
+  speaker: "Speaker to be announced"
+  title: 'To be announced'
+  note: "Slot reserved for a visitor; details in a week or two."
+
+- date: 2026-09-09
+  speaker: "Sofya Kovalevskaya"
+  affiliation: "Stockholm University"
+  url: "https://example.edu/~kovalevskaya"
+  title: 'Osculating flags and the real Wronski map'
+  abstract: >
+    The Wronski map $\mathrm{Wr} \colon \mathrm{Gr}(k, n) \to \mathbb{P}^{k(n-k)}$
+    is finite and flat of degree equal to the number of standard Young tableaux
+    of rectangular shape $k \times (n-k)$. I will discuss what its real fibres
+    look like, and why the answer is controlled by a combinatorial object that
+    behaves like a domino tiling.
+  links:
+    slides: "https://example.edu/slides/kovalevskaya.pdf"
+    video: "https://example.edu/video/kovalevskaya"
+    arxiv: "https://arxiv.org/abs/0000.00000"
+
+- date: 2026-09-02
+  speaker: "David Hilbert"
+  affiliation: "Königsberg"
+  title: 'Syzygies in the graded case'
+  cancelled: true
+  note: "Cancelled; we hope to reschedule for the spring."
+
+# --- previous terms; these drop into the archive on their own ------------------
+
+- date: 2026-04-15
+  speaker: "Julia Robinson"
+  affiliation: "Berkeley"
+  title: 'Diophantine definability over rings of integers'
+  abstract: >
+    An overview of what is known about defining $\ZZ$ inside $\mathcal{O}_K$ by
+    a positive existential formula, and what such a definition would say about
+    Hilbert's tenth problem for $K$.
+  links:
+    notes: "https://example.edu/notes/robinson.pdf"
+
+- date: 2026-04-01
+  speaker: "Maryam Mirzakhani"
+  affiliation: "Stanford"
+  title: 'Counting simple closed geodesics'
+  abstract: >
+    For a hyperbolic surface $X$ of genus $g$, the number of simple closed
+    geodesics of length at most $L$ grows like $c_X L^{6g-6}$. I will explain
+    where the exponent comes from and what the constant remembers about $X$.
+
+- date: 2025-11-12
+  speaker: "Jean-Pierre Serre"
+  affiliation: "Collège de France"
+  title: 'Galois representations attached to modular forms'

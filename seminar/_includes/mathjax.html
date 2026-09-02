@@ -1,0 +1,27 @@
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processRefs: true,
+      tags: 'ams',
+      macros: {
+        {%- for macro in site.data.mathjax_macros -%}
+        {{ macro[0] | jsonify }}: {{ macro[1] | jsonify }}{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      }
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      ignoreHtmlClass: 'no-mathjax'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'left',
+      displayIndent: '0'
+    }
+  };
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

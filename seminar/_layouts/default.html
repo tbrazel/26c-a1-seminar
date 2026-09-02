@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <p class="masthead__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+    <p class="masthead__meta">
+      {{ site.seminar.meets }}{% if site.seminar.room %}, {{ site.seminar.room }}{% endif %}
+    </p>
+    <nav class="masthead__nav">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Schedule</a>
+      <a href="{{ '/archive/' | relative_url }}"{% if page.url contains 'archive' %} aria-current="page"{% endif %}>Past talks</a>
+      <a href="{{ '/information/' | relative_url }}"{% if page.url contains 'information' %} aria-current="page"{% endif %}>Information</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="colophon">
+    <p>
+      Organized by
+      {% for o in site.organizers -%}
+        {%- if o.url and o.url != '' -%}<a href="{{ o.url }}">{{ o.name }}</a>
+        {%- elsif o.email and o.email != '' -%}<a href="mailto:{{ o.email }}">{{ o.name }}</a>
+        {%- else -%}{{ o.name }}{%- endif -%}
+        {%- if forloop.last == false %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endif -%}
+      {%- endfor %}.
+    </p>
+    <p>Built with Jekyll. Corrections to the schedule are welcome.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,319 @@
+/* ---------------------------------------------------------------------------
+   Tokens
+   --------------------------------------------------------------------------- */
+:root {
+  --paper:       #f4f5f0;
+  --panel:       #fdfdfb;
+  --ink:         #14181a;
+  --muted:       #5f6a68;
+  --rule:        #d6dad0;
+  --accent:      #2c5d4f;
+  --accent-soft: #e7ece5;
+
+  --serif: "Iowan Old Style", Charter, "Bitstream Charter", Palatino, "Palatino Linotype", Georgia, serif;
+  --sans:  ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --measure: 34rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:       #14181a;
+    --panel:       #1b2022;
+    --ink:         #e6e9e3;
+    --muted:       #95a09c;
+    --rule:        #2b3234;
+    --accent:      #86c3ac;
+    --accent-soft: #1d2926;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+   --------------------------------------------------------------------------- */
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0 1.5rem 5rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+}
+.skip:focus {
+  left: 1.5rem;
+  top: 1rem;
+  background: var(--panel);
+  padding: 0.5rem 0.75rem;
+  z-index: 10;
+}
+
+/* ---------------------------------------------------------------------------
+   Masthead
+   --------------------------------------------------------------------------- */
+.masthead,
+main,
+.colophon {
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.masthead {
+  padding: 3rem 0 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.masthead__title {
+  margin: 0;
+  font-size: clamp(1.75rem, 1.2rem + 2vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.masthead__title a { text-decoration: none; }
+
+.masthead__meta {
+  margin: 0.4rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.masthead__nav {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+}
+.masthead__nav a {
+  text-decoration: none;
+  padding-bottom: 0.15rem;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+}
+.masthead__nav a:hover { color: var(--ink); }
+.masthead__nav a[aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------------
+   Pages
+   --------------------------------------------------------------------------- */
+.page { padding-top: 2.5rem; }
+
+.page__title {
+  margin: 0 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.year {
+  margin: 3rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.prose { max-width: var(--measure); }
+.prose h2 {
+  margin: 2.5rem 0 0.5rem;
+  font-size: 1.1875rem;
+  font-weight: 600;
+}
+.prose ul { padding-left: 1.1rem; }
+.prose li { margin-bottom: 0.35rem; }
+
+.empty {
+  max-width: var(--measure);
+  padding: 1.75rem 0 0;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+}
+.empty p { margin: 0 0 0.75rem; }
+
+.more {
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Talks
+   --------------------------------------------------------------------------- */
+.talks { display: flex; flex-direction: column; }
+
+.talk {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 2rem;
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--rule);
+}
+.talk:first-child { border-top: 0; padding-top: 0; }
+
+.talk__when {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.talk__when time { display: block; }
+.talk__weekday { display: block; }
+.talk__day {
+  display: block;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  color: var(--ink);
+  font-variant-numeric: lining-nums;
+}
+.talk__month { display: block; }
+.talk__hour,
+.talk__room { margin: 0.5rem 0 0; }
+
+.talk__body { min-width: 0; }
+
+.talk__flag {
+  margin: 0 0 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--accent);
+}
+
+.talk__speaker {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.talk__affiliation {
+  font-weight: 400;
+  color: var(--muted);
+}
+.talk__affiliation::before { content: ", "; }
+
+.talk__title {
+  margin: 0.3rem 0 0;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  line-height: 1.3;
+  max-width: 30rem;
+}
+
+.talk__abstract {
+  margin-top: 0.9rem;
+  max-width: var(--measure);
+  color: var(--ink);
+}
+/* A folded (">") YAML abstract keeps one newline per paragraph break, which
+   newline_to_br turns into a single <br>. Give those breaks real air. */
+.talk__abstract br { display: block; content: ""; margin-top: 0.7rem; }
+
+.talk__note {
+  margin-top: 0.9rem;
+  max-width: var(--measure);
+  color: var(--muted);
+  font-style: italic;
+}
+
+.talk__links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+}
+
+/* The one place the page raises its voice: whatever is happening next. */
+.talk--next {
+  background: var(--accent-soft);
+  border-top: 0;
+  border-left: 3px solid var(--accent);
+  padding: 1.75rem 1.75rem 1.75rem 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.talk--next + .talk { border-top: 0; }
+.talk--next .talk__title { font-size: 1.5rem; }
+
+.talk--cancelled .talk__title,
+.talk--cancelled .talk__speaker { text-decoration: line-through; }
+.talk--cancelled { opacity: 0.65; }
+
+/* ---------------------------------------------------------------------------
+   Colophon
+   --------------------------------------------------------------------------- */
+.colophon {
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.colophon p { margin: 0 0 0.3rem; }
+
+/* ---------------------------------------------------------------------------
+   MathJax
+   --------------------------------------------------------------------------- */
+mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0;
+}
+mjx-container { color: inherit; }
+
+/* ---------------------------------------------------------------------------
+   Narrow screens
+   --------------------------------------------------------------------------- */
+@media (max-width: 40rem) {
+  body { padding: 0 1.1rem 3.5rem; }
+
+  .talk {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+  .talk__when {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .talk__when time {
+    display: flex;
+    gap: 0.35rem;
+    align-items: baseline;
+  }
+  .talk__day { font-size: 1rem; }
+  .talk__hour,
+  .talk__room { margin: 0; }
+  .talk__hour::before,
+  .talk__room::before { content: "· "; }
+
+  .talk--next { padding: 1.5rem 1.1rem; }
+  .talk--next .talk__title { font-size: 1.3125rem; }
+}

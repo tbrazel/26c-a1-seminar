@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# Edit these four lines and the site is yours.
+# ---------------------------------------------------------------------------
+title: "Algebra and Geometry Seminar"
+description: "A weekly seminar on algebraic geometry, arithmetic geometry, and neighbouring subjects."
+url: "https://USERNAME.github.io"   # no trailing slash
+baseurl: "/seminar"                 # the repository name, with a leading slash
+
+# Shown in the masthead and on the information page.
+seminar:
+  meets: "Wednesdays, 4:00–5:00 pm"
+  room: "Room 507, Mathematics Building"
+  term: "Fall 2026"
+  mailing_list: "https://lists.example.edu/seminar"
+  calendar: ""                      # optional .ics or Google Calendar link
+
+organizers:
+  - name: "A. Organizer"
+    email: "organizer@example.edu"
+    url: "https://example.edu/~organizer"
+  - name: "B. Organizer"
+    email: "b.organizer@example.edu"
+    url: ""
+
+# ---------------------------------------------------------------------------
+# Build settings — you can leave everything below alone.
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  # null leaves $...$ and $$...$$ untouched so MathJax 3 can handle them.
+  # (The default, "mathjax", emits MathJax 2 <script type="math/tex"> tags.)
+  math_engine: null
+  syntax_highlighter: rouge
+
+timezone: America/New_York
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

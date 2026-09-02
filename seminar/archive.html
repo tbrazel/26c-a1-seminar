@@ -1,0 +1,37 @@
+---
+layout: default
+title: Past talks
+permalink: /archive/
+---
+{%- assign today = site.time | date: '%Y-%m-%d' -%}
+{%- assign years = site.data.talks | group_by_exp: "t", "t.date | date: '%Y'" | sort: "name" | reverse -%}
+
+<div class="page">
+  <h1 class="page__title">Past talks</h1>
+
+  {%- assign total = 0 -%}
+  {%- for year in years -%}
+    {%- assign items = year.items | sort: 'date' | reverse -%}
+    {%- assign n = 0 -%}
+    {%- for talk in items -%}
+      {%- assign d = talk.date | date: '%Y-%m-%d' -%}
+      {%- if d < today %}{% assign n = n | plus: 1 %}{% assign total = total | plus: 1 %}{% endif -%}
+    {%- endfor -%}
+
+    {%- if n > 0 -%}
+      <h2 class="year">{{ year.name }}</h2>
+      <div class="talks">
+        {%- for talk in items -%}
+          {%- assign d = talk.date | date: '%Y-%m-%d' -%}
+          {%- if d < today %}{% include talk.html talk=talk %}{% endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if total == 0 -%}
+    <div class="empty">
+      <p>The archive fills up as talks happen. Nothing here yet.</p>
+    </div>
+  {%- endif -%}
+</div>

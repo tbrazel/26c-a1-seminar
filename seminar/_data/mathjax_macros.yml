@@ -1,0 +1,18 @@
+# Shorthand available in every title, abstract and page on the site.
+#
+#   NAME: 'replacement'                 for a macro with no arguments
+#   NAME: ['replacement with #1', 1]    for a macro taking arguments
+#
+# Single quotes again, so backslashes survive.
+
+RR: '\mathbb{R}'
+CC: '\mathbb{C}'
+QQ: '\mathbb{Q}'
+ZZ: '\mathbb{Z}'
+PP: '\mathbb{P}'
+AA: '\mathbb{A}'
+Gr: '\operatorname{Gr}'
+Spec: '\operatorname{Spec}'
+Gal: '\operatorname{Gal}'
+Aut: '\operatorname{Aut}'
+sh: ['\mathcal{#1}', 1]

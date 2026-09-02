@@ -1,0 +1,49 @@
+{%- comment -%}
+  Renders one talk.
+  Parameters:
+    talk     — an entry from _data/talks.yml   (required)
+    featured — true for the next upcoming talk (optional)
+{%- endcomment -%}
+<article class="talk{% if include.featured %} talk--next{% endif %}{% if include.talk.cancelled %} talk--cancelled{% endif %}">
+
+  <div class="talk__when">
+    <time datetime="{{ include.talk.date | date: '%Y-%m-%d' }}">
+      <span class="talk__weekday">{{ include.talk.date | date: '%a' }}</span>
+      <span class="talk__day">{{ include.talk.date | date: '%-d' }}</span>
+      <span class="talk__month">{{ include.talk.date | date: '%b %Y' }}</span>
+    </time>
+    <p class="talk__hour">{{ include.talk.time | default: site.seminar.meets | split: ', ' | last }}</p>
+    {%- if include.talk.room %}<p class="talk__room">{{ include.talk.room }}</p>{% endif -%}
+  </div>
+
+  <div class="talk__body">
+    {%- if include.featured %}<p class="talk__flag">Next talk</p>{% endif -%}
+
+    <p class="talk__speaker">
+      {%- if include.talk.url and include.talk.url != '' -%}
+        <a href="{{ include.talk.url }}">{{ include.talk.speaker }}</a>
+      {%- else -%}
+        {{ include.talk.speaker }}
+      {%- endif -%}
+      {%- if include.talk.affiliation %}<span class="talk__affiliation">{{ include.talk.affiliation }}</span>{% endif -%}
+    </p>
+
+    <h3 class="talk__title">{{ include.talk.title }}</h3>
+
+    {%- if include.talk.abstract %}
+    <div class="talk__abstract">{{ include.talk.abstract | strip | newline_to_br }}</div>
+    {%- endif %}
+
+    {%- if include.talk.note %}
+    <p class="talk__note">{{ include.talk.note }}</p>
+    {%- endif %}
+
+    {%- if include.talk.links %}
+    <p class="talk__links">
+      {%- for link in include.talk.links -%}
+        <a href="{{ link[1] }}">{{ link[0] | replace: '_', ' ' }}</a>
+      {%- endfor -%}
+    </p>
+    {%- endif %}
+  </div>
+</article>
