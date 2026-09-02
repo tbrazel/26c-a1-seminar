@@ -25,7 +25,7 @@
 - date: 2026-09-15
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
@@ -33,30 +33,28 @@
 - date: 2026-09-22
   speaker: "Michael Zeng"
   affiliation: "UC-Berkeley / University of Washington"
-  title: 'tbd'
+  title: ''
   abstract: >
-    tbd
 
 
 - date: 2026-09-29
   speaker: "Sebastian Gant"
   affiliation: "SLMath MHT / Duke University"
-  title: 'tbd'
+  title: ''
   abstract: >
-    Let us know if you'd like to speak!
 
 
 - date: 2026-10-06
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title: ''
   abstract: >
     Let us know if you'd like to speak!
 
 - date: 2026-10-13
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
@@ -73,7 +71,7 @@
 - date: 2026-10-27
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
@@ -81,21 +79,21 @@
 - date: 2026-11-03
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
 - date: 2026-11-10
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
 - date: 2026-11-17
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
@@ -110,13 +108,13 @@
 - date: 2026-12-01
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
 
 - date: 2026-12-08
   speaker: "tbd"
   affiliation: ""
-  title: 'tbd'
+  title:
   abstract: >
     Let us know if you'd like to speak!
