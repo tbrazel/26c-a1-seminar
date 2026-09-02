@@ -1,16 +1,15 @@
 # Seminar site
 
 A small Jekyll site for an academic seminar. Talks live in one YAML file; the
-site sorts them, decides what is upcoming, files the rest into an archive, and
-renders TeX with MathJax. No plugins, no theme gem, no JavaScript beyond
+site sorts them and displays the schedule, and renders TeX with MathJax. No
+plugins, no theme gem, no JavaScript beyond
 MathJax itself.
 
 ```
 _config.yml               site title, room, meeting time, organizers, baseurl
-_data/talks.yml           every talk, past and future  ← the file you edit weekly
+_data/talks.yml           scheduled talks               ← the file you edit weekly
 _data/mathjax_macros.yml  optional \RR, \Spec, ... shorthand
 index.html                upcoming schedule, next talk highlighted
-archive.html              past talks, grouped by year
 information.md            practical details and how to propose a talk
 _includes/talk.html       markup for a single talk
 _includes/mathjax.html    MathJax 3 configuration
@@ -71,9 +70,6 @@ Append an entry to `_data/talks.yml`. Order does not matter — the site sorts.
 quotes but not single ones, so `'$\mathbb{Z}$'` arrives intact while
 `"$\mathbb{Z}$"` would need `\\mathbb`. This is the one thing that trips people
 up when they add a talk in a hurry.
-
-A talk moves from the schedule to the archive by itself on the day after it
-happens. Nothing needs deleting.
 
 ## Math
 
