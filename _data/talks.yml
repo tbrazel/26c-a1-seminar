@@ -12,7 +12,7 @@
 # For abstracts, ">" folds each paragraph onto one line and keeps blank lines
 # as paragraph breaks. Keep the indentation as shown.
 
-- date: 2026-09-08
+- date: 2026-09-15
   speaker: "Thomas Brazelton"
   affiliation: "SLMath MHT / Vanderbilt"
   url: "https://tbrazel.github.io/"
@@ -21,13 +21,6 @@
     We'll provide a leisurely introduction to the basic ideas of enumerative geometry, following its history and development from Ancient Greece to the present day. We will explore Poncelet and Schubert's principle of "conservation of number," and see how it breaks over non-algebraically closed fields. The second half of the talk will explore how methods from motivic homotopy theory can be leveraged to repair conservation of number and provide quadratically enriched answers to classical enumerative questions. This talk will introduce some of the key players in enumerative geometry, including the Grothendieck-Witt ring of a field and quadratic Euler classes.
   # links:
   #   notes: "https://example.edu/notes/noether.pdf"
-
-- date: 2026-09-15
-  speaker: "tbd"
-  affiliation: ""
-  title:
-  abstract: >
-    Let us know if you'd like to speak!
 
 
 - date: 2026-09-22
