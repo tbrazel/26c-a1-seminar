@@ -40,22 +40,25 @@
 
 
 - date: 2026-10-06
-  speaker: "Keyao Peng"
-  affiliation: "SLMath MHT / Université de Bourgogne/CNRS"
+  speaker: ""
+  affiliation: ""
   title: ''
+  cancelled: true
   abstract: >
+    No talk, workshop
+
 
 - date: 2026-10-13
-  speaker: "tbd"
-  affiliation: ""
+  speaker: "Parimala Raman"
+  affiliation: "Emory University"
   title:
   abstract: >
     Let us know if you'd like to speak!
 
 
 - date: 2026-10-20
-  speaker: ""
-  affiliation: ""
+  speaker: "Keyao Peng"
+  affiliation: "SLMath MHT / Université de Bourgogne/CNRS"
   title: ''
   cancelled: true
   abstract: >
