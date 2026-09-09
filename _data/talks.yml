@@ -16,7 +16,7 @@
   speaker: "Thomas Brazelton"
   affiliation: "SLMath MHT / Vanderbilt"
   url: "https://tbrazel.github.io/"
-  title: 'An introduction to enumerative geometry and A1-enumerative geometry'
+  title: 'An introduction to enumerative geometry and $\mathbb{A}^1$-enumerative geometry'
   abstract: >
     We'll provide a leisurely introduction to the basic ideas of enumerative geometry, following its history and development from Ancient Greece to the present day. We will explore Poncelet and Schubert's principle of "conservation of number," and see how it breaks over non-algebraically closed fields. The second half of the talk will explore how methods from motivic homotopy theory can be leveraged to repair conservation of number and provide quadratically enriched answers to classical enumerative questions. This talk will introduce some of the key players in enumerative geometry, including the Grothendieck-Witt ring of a field and quadratic Euler classes.
   # links:
@@ -31,11 +31,10 @@
   abstract: >
     Oriented cohomology theories provide a general framework to perform intersection-theory style calculations. Prototypical examples include Chow ring, $K$-theory, and algebraic cobordism, while Annala--Hoyois--Iwasa recently constructed the category $\mathsf{MS}_S$ for studying other non-$\mathbb A^1$-invariant theories. In this talk, we prove a blowup formula for oriented cohomology theories in $\mathsf{MS}_S$. We then give a ring presentation version of this formula and use it to compute oriented cohomology rings of blowups such as the moduli space of complete conics and $\overline M_{0,n}$. In particular, we demonstrate that one can recover the number $3264$ of conics simultaneously tangent to five given ones in $\mathbb P^2$ in algebraic cobordism. This is based on joint work with Arkamouli Debnath.
 
-
 - date: 2026-09-29
-  speaker: "Sebastian Gant"
-  affiliation: "SLMath MHT / Duke University"
-  title: ''
+  speaker: "Keyao Peng"
+  affiliation: "SLMath MHT / Université de Bourgogne/CNRS"
+  title:
   abstract: >
 
 
@@ -53,24 +52,26 @@
   affiliation: "Emory University"
   title:
   abstract: >
-    Let us know if you'd like to speak!
+    
 
 
 - date: 2026-10-20
-  speaker: "Keyao Peng"
-  affiliation: "SLMath MHT / Université de Bourgogne/CNRS"
+  speaker: ""
+  affiliation: ""
   title: ''
   cancelled: true
   abstract: >
     No talk, workshop
 
 
+
+
+
 - date: 2026-10-27
-  speaker: "tbd"
-  affiliation: ""
-  title:
+  speaker: "Sebastian Gant"
+  affiliation: "SLMath MHT / Duke University"
+  title: ''
   abstract: >
-    Let us know if you'd like to speak!
 
 
 - date: 2026-11-03
