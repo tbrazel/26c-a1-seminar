@@ -34,8 +34,10 @@
 - date: 2026-09-29
   speaker: "Keyao Peng"
   affiliation: "SLMath MHT / Université de Bourgogne/CNRS"
-  title:
+  url: "https://iamcxds.github.io/"
+  title: 'Cellular $\mathbb{A}^1$-homology of wonderful models of subspace arrangements'
   abstract: >
+    Wonderful models of subspace arrangements, in the sense of De Concini and Procesi, provide smooth compactifications of arrangement complements and include, as notable examples, moduli spaces of curves. In this talk, we investigate the A1-homotopy-theoretic (motivic) properties of these models and develop tools for computing their cellular A1-homology. Our approach expresses the resulting invariants in terms of combinatorial data associated to the underlying arrangement.
 
 
 - date: 2026-10-06
@@ -50,6 +52,7 @@
 - date: 2026-10-13
   speaker: "Parimala Raman"
   affiliation: "Emory University"
+  url: "https://www.math.emory.edu/~parimala/"
   title:
   abstract: >
     
@@ -70,6 +73,7 @@
 - date: 2026-10-27
   speaker: "Sebastian Gant"
   affiliation: "SLMath MHT / Duke University"
+  url: "https://sites.google.com/view/wsganthomepage/home"
   title: ''
   abstract: >
 
@@ -91,6 +95,7 @@
 - date: 2026-11-17
   speaker: "Ran Azouri"
   affiliation: "IMJ-PRG, Université Paris Cité"
+  url: "https://ranazouri.com/"
   title:
   abstract: >
     
