@@ -35,4 +35,21 @@ layout: default
       <p>If you would like to speak, write to one of the organizers.</p>
     </div>
   {%- endif -%}
+
+  {%- assign past = talks | reverse -%}
+  {%- assign past_done = false -%}
+  {%- for talk in past -%}
+    {%- assign d = talk.date | date: '%Y-%m-%d' -%}
+    {%- if d < today -%}
+      {%- unless past_done -%}
+        {%- assign past_done = true -%}
+        <h2 class="page__subtitle">Previous talks</h2>
+        <div class="talks talks--past">
+      {%- endunless -%}
+      {% include talk.html talk=talk past=true %}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if past_done -%}
+    </div>
+  {%- endif -%}
 </div>

@@ -127,6 +127,16 @@ main,
   letter-spacing: -0.005em;
 }
 
+.page__subtitle {
+  margin: 3rem 0 1rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
 .year {
   margin: 3rem 0 1rem;
   padding-top: 1rem;
@@ -263,6 +273,8 @@ main,
 .talk--cancelled .talk__title,
 .talk--cancelled .talk__speaker { text-decoration: line-through; }
 .talk--cancelled { opacity: 0.65; }
+
+.talk--past { opacity: 0.5; }
 
 /* ---------------------------------------------------------------------------
    Colophon
