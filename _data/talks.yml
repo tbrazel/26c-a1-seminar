@@ -53,8 +53,9 @@
   speaker: "Parimala Raman"
   affiliation: "Emory University"
   url: "https://www.math.emory.edu/~parimala/"
-  title:
+  title: 'Quadratic forms, Galois cohomology and the u-invariant'
   abstract: >
+    The solution of the Milnor conjectures on quadratic forms provides a complete set of invariants for quadratic forms. One would like to use this classification to attack a classical problem on the u-invariant of function fields of curves over totally imaginary number fields. The u-invariant is the maximum dimension of anisotropic quadratic forms over a field. Even finiteness is not known in this case. We explain how the finiteness of the u-invariant is reduced to bounding indices of the unramified Brauer group of the field. We run through the history and state some results in this direction.
     
 
 
