@@ -75,8 +75,9 @@
   speaker: "Sebastian Gant"
   affiliation: "SLMath MHT / Duke University"
   url: "https://sites.google.com/view/wsganthomepage/home"
-  title: ''
+  title: 'The A1-Euler characteristic and Gauss-Bonnet formula'
   abstract: >
+    This is an expository talk based on work of Déglise-Jin-Khan and Levine-Raksit. The classical Gauss-Bonnet formula states that the integral of the Euler class of the tangent bundle of a smooth, closed, oriented manifold agrees with its Euler characteristic. After introducing the categorical Euler characteristic and (twisted) Euler class, we discuss a motivic analogue of this formula, valid for any motivic commutative ring spectrum, and make some calculations along the way. 
 
 
 - date: 2026-11-03
