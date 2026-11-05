@@ -92,9 +92,18 @@
   speaker: "Alexey Ananyevskiy"
   affiliation: "SLMath MHT / LMU München"
   url: "https://aananyevskiy.github.io/"
-  title:
+  title: 'On the parallelizability of coconuts'
   abstract: >
+    The classical hairy ball theorem says that every continuous tangent vector field on the 2-sphere must vanish somewhere. One may ask a similar question in algebraic geometry: does the tangent bundle of the sphere defined by the equation x^2+y^2+z^2=1 over a field k admit a nowhere-vanishing section? More generally, when does the tangent bundle of a smooth affine quadric defined by q=1, where q is a quadratic form, admit such a section? And if it does, how many fiberwise linearly independent sections can one find? In particular, which affine quadrics are parallelizable?
+
+
+    These questions are well studied in classical topology, and motivic homotopy theory provides tools for investigating their algebraic counterparts, leading to some surprising answers. For example, one can show that a smooth affine quadric of even dimension admits a nowhere-vanishing vector field if and only if its tangent bundle is trivial, and that this property can be detected in terms of the values represented by the quadratic form.
+
+
+    In the talk, I will outline the general approach to these problems, introduce the tools used in the proofs, and present some results and explicit formulas.
+
     
+    The talk is based on joint work with Marc Levine and on an ongoing work with Jean Fasel.
 
 - date: 2026-11-17
   speaker: "Ran Azouri"
