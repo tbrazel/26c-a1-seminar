@@ -107,12 +107,13 @@
 
 - date: 2026-11-17
   speaker: "Ran Azouri"
-  affiliation: "SLMath MHT / IMJ-PRG, Université Paris Cité"
+  affiliation: "SLMath MHT / Weizmann Institute of Science"
   url: "https://ranazouri.com/"
-  title:
+  title: 'Motivic invariants of automorphisms and the plane Cremona group'
   abstract: >
+    The $\mathbb{A}^1$-Euler characteristic can be refined to a map from the $K$-theory spectrum of varieties to the endomorphism spectrum of the motivic sphere, as first constructed by Anubhav Nanavaty. In homotopy degree one, this gives an invariant of automorphisms of varieties. Passing to Hermitian $K$-theory, we describe it in terms of the action on Hodge cohomology, taking the work of Levine-Raksit one homotopy level up. While the invariant is not birationally invariant in general, surprisingly it yields new arithmetic conjugacy invariants for certain involutions in the plane Cremona group. 
+    This is joint work with Anubhav Nanavaty and Jesse Pajwani.
     
-
 - date: 2026-11-24
   speaker: ""
   affiliation: ""
